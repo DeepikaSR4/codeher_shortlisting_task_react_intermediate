@@ -1,0 +1,57 @@
+body{
+    background-size: cover;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-content: center;
+
+}
+h1 {
+    margin-bottom: 10px;
+    padding-top: 30px;
+    color: rgb(253, 179, 167);
+}
+
+h2 {
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color:white;
+}
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background:rgb(232, 161, 150);
+}
+
+#increment-btn:hover{
+    background:rgb(253, 179, 167);
+}
+
+#save-btn {
+    background:rgb(232, 161, 150);
+    margin-bottom:50px;
+}
+#save-btn:hover{
+    background:rgb(253, 179, 167);
+}
+
+.div{
+
+    margin: 0px auto;
+    margin-top:10%;
+    width: 100%;
+    max-width: 248px;
+    background: rgb(65, 65, 65);
+    border-radius: 4px;
+    box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+    margin-bottom: 10px;
+}

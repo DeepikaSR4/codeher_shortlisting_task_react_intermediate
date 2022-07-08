@@ -1,0 +1,60 @@
+body{
+    background-color:aliceblue;
+}
+.card{
+    border-color:rgb(60, 164, 255);
+    border-width: 2px;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#formdiv{
+    margin: 0px auto;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 448px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+    margin-bottom: 10px;
+}
+
+h2{
+    display: block;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1a1f36;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.forminputs{
+    padding-top:0px;
+    padding-bottom:15px;
+    padding-left: 60px;
+}
+label{
+    padding-bottom: 5px;
+}
+input{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: blueviolet;
+}
+
+.formsubmit{
+    padding-top:0px;
+    padding-bottom:15px;
+    padding-left: 130px;
+}
+
+.button{
+    background-color: blueviolet;
+    color: white;
+    width: 60%;
+}
+

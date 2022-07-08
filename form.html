@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <title>Form validation</title>
+</head>
+<body>
+    <div  class = "col d-flex">
+        <form name="ourform" id="formdiv" onsubmit="return validateForm()" method="post">
+            <h2>Register here to avail student discount</h2>
+            <div class="forminputs">
+            <label for="fname">Name</label>
+            <br>
+            <input type="text" id="name" name="name">
+            </div>
+            <div class="forminputs">
+            <label for="cname">College Name</label>
+            <br>
+            <input type="text" id="cname" name="cname">
+            </div>
+            <div class="forminputs">
+                <label for="yr">Year of Passing</label>
+                <br>
+                <input type="text" id="yr" name="yr">
+            </div>
+            <div class="forminputs">
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="forminputs">
+                <label for="phn">Phone Number</label>
+                <br>
+                <input type="phn" id="phn" name="phn" >
+            </div>
+            <div class="formsubmit">
+            <input class="button" type="submit" id="button" name="button" value="Sign Up">
+            </div>
+            <h6 style="text-align:center; padding-bottom:10px; font-weight:lighter">Already a member?<a href="#">Sign in</a></h6>
+        </form>
+        
+    </div>
+    <footer style="text-align:center;">
+        <a href="index.html" style="font-weight:normal; margin-top:30px; ">Return back to home screen</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="form.js"></script>
+</body>
+</html>
